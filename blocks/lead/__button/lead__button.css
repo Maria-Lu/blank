@@ -1,0 +1,24 @@
+.lead__button {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -.5px;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(38, 50, 56, .1),
+              0 16px 32px rgba(38, 50, 56, .08);
+  text-shadow: 0 2px 4px rgba(38, 50, 56, .16),
+               0 4px 8px rgba(38, 50, 56, .08);
+  border: solid 2px transparent;
+  width: 100%;
+  height: 100%;
+  color: #6C5CE7;
+}
+
+.lead__button:hover {
+  border-color: #ADADAD;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+
+

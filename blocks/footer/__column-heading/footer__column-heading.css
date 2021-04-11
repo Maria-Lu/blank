@@ -1,0 +1,9 @@
+.footer__column-heading {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #ADADAD;
+  margin: 0 0 8px 0;
+}

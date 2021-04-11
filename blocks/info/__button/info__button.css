@@ -1,0 +1,17 @@
+.info__button {
+  border: 1px solid #ADADAD;
+  background-color: #fff;
+  width: 146px;
+  height: 48px;
+  box-sizing: border-box;
+  color: #6C5CE7;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.info__button:hover {
+  color: #fff;
+  border: none;
+  background-color: #6C5CE7;
+}

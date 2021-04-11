@@ -1,0 +1,15 @@
+.social-list__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 99px;
+  transition: .3s ease-in;
+}
+
+.social-list__link:hover {
+  background-color: #FFEAA7;
+}
+
+.social-list__link:active {
+  background-color: #FFEAA7;
+}

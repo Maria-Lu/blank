@@ -1,0 +1,31 @@
+.header__link {
+  display: inline-block;
+  color: #6C5CE7;
+  text-decoration: none;
+  text-align: center;
+  transition: opacity .5s ease-in;
+}
+
+.header__link::before {
+  display: block;
+  content: attr(data-text);
+  font-weight: bold;
+  height: 0;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.header__link:hover {
+  color: #2D3436;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.header__link:active {
+  color: #2D3436;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}

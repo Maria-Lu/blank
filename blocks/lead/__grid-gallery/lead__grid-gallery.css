@@ -1,0 +1,9 @@
+.lead__grid-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 270px) repeat(3, 170px);
+  grid-template-rows: 88px 10px 222px 172px 20px 32px 42px;
+  gap: 30px;
+}

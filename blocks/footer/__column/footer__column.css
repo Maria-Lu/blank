@@ -1,0 +1,8 @@
+.footer__column {
+  width: calc(50% - 15px);
+  margin: 0 0 40px 0;
+}
+
+.footer__column:last-child {
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+.footer__field_type_message {
+  border: 2px solid rgba(108, 92, 231, .24);
+  width: 370px;
+  height: 80px;
+  margin: 30px 0 0;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #6C5CE7;
+  background-image: url('../../../../images/footer/icon-field-edit.svg');
+  background-position: right 4px top 4px;
+}
+
+.footer__field_type_message::-webkit-field-placeholder {
+  color: #6C5CE7;
+}
+.footer__field_type_message::-moz-placeholder {
+  color: #6C5CE7;
+}
+.footer__field_type_message::-ms-field-placeholder {
+  color: #6C5CE7;
+}
+
+.footer__field_type_message::placeholder {
+  color: #6C5CE7;
+}

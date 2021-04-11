@@ -1,0 +1,18 @@
+.lead__span-accent {
+  color: #D63031;
+  text-shadow: 0px 4px 0px #FFFFFF;
+  position: relative;
+}
+
+.lead__span-accent::before {
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  height: 51px;
+  content: '';
+  z-index: -1;
+  background-color: #55EFC4;
+  border-radius: 999px;
+}

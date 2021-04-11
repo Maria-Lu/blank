@@ -1,0 +1,7 @@
+.info-list__item {
+  margin: 0 0 16px;
+}
+
+.info-list__item:last-of-type {
+  margin: 0;
+}
