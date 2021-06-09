@@ -6,3 +6,25 @@
   text-align: center;
   letter-spacing: -3px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    font-size: 72px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: 62px;
+    line-height: 70px;
+  }
+}
+
+
+@media screen and (max-width: 590px) {
+  .lead__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

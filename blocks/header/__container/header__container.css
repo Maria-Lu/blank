@@ -2,6 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 96px;
+  height: 160px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__container {
+    height: 104px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__container {
+    height: 86px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .header__container {
+    flex-wrap: wrap;
+    padding: 14px 0;
+    height: auto;
+
+  }
 }

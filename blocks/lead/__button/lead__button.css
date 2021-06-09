@@ -2,7 +2,6 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 48px;
-  letter-spacing: -.5px;
   background-color: #fff;
   box-shadow: 0 8px 24px rgba(38, 50, 56, .1),
               0 16px 32px rgba(38, 50, 56, .08);
@@ -12,6 +11,7 @@
   width: 100%;
   height: 100%;
   color: #6C5CE7;
+  border-radius: 20px;
 }
 
 .lead__button:hover {
@@ -21,4 +21,17 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+  .lead__button {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
 
+@media screen and (max-width: 590px) {
+  .lead__button {
+    font-size: 18px;
+    line-height: 32px;
+    border-radius: 10px;
+  }
+}

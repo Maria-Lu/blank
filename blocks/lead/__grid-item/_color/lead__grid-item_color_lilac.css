@@ -1,0 +1,27 @@
+.lead__grid-item_color_lilac {
+  grid-column: 4;
+  grid-row: 1;
+  align-self: end;
+  background-color:#A29BFE;
+  height: 222px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__grid-item_color_lilac {
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__grid-item_color_lilac {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__grid-item_color_lilac {
+    grid-column: 3;
+    grid-row: 2;
+    height: 136px;
+  }
+}

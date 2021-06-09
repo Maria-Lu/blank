@@ -1,0 +1,35 @@
+.lead__grid-item_color_yellow {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  align-self: start;
+  margin: 118px 0 0;
+  background-color: #FDCB6E;
+  height: 464px;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__grid-item_color_yellow {
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__grid-item_color_yellow {
+    margin: 68px 0 0;
+    height: 345px;
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    .lead__grid-item_color_yellow {
+      margin: 53px 0 0;
+      height: 258px;
+    }
+  }
+
+  @media screen and (max-width: 590px) {
+    .lead__grid-item_color_yellow {
+      margin: 18px 0 0;
+      height: 224px;
+    }
+  }

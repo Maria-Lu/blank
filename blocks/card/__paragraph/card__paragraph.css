@@ -5,3 +5,12 @@
     -webkit-box-orient: vertical;
   margin: 16px 0;
 }
+
+@media screen and (max-width: 590px) {
+  .card__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5C5C5C;
+    margin: 12px 0;
+  }
+}

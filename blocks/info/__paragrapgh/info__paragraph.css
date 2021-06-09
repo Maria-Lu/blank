@@ -2,5 +2,19 @@
   margin: 15px 0 40px;
   font-size: 24px;
   line-height: 36px;
-  letter-spacing: -0.25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__paragraph {
+    font-size: 21px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .info__paragraph {
+    margin: 8px 0 40px;
+    font-size: 18px;
+    line-height: 32px;
+  }
 }

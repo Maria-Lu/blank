@@ -1,5 +1,19 @@
 .header__logo {
-  background: url('../../../images/header/logo-horizontal.svg');
+  background: url('../../../images/header/logo-horizontal.svg') no-repeat center/contain;
   width: 207px;
   height: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 168px;
+    height: 52px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .header__logo {
+    width: 142px;
+    height: 44px;
+  }
 }

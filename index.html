@@ -10,37 +10,40 @@
   <header class="header page__header">
     <div class="header__container section">
       <a class="header__logo" href="#"></a>
+      <div class="hamburger"></div>
       <ul class="header__menu">
         <li class="header__menu-item">
-          <a class="header__link" href="#" data-text="Link">Link</a>
+          <a class="header__link" href="#" data-text="Home">Home</a>
         </li>
         <li class="header__menu-item">
-          <a class="header__link" href="#" data-text="Link">Link</a>
+          <a class="header__link" href="#" data-text="About">About</a>
         </li>
         <li class="header__menu-item">
-          <a class="header__link" href="#" data-text="Link">Link</a>
+          <a class="header__link" href="#" data-text="Information">Information</a>
         </li>
         <li class="header__menu-item">
-          <a class="header__link" href="#" data-text="Link">Link</a>
+          <a class="header__link" href="#" data-text="Contact">Contact</a>
         </li>
       </ul>
     </div>
   </header>
   <main class="content">
-    <section class="lead content__section">
+    <section class="lead">
+      <div class="lead__title-container section">
       <h1 class="lead__title">Main <span class="lead__span-accent">cool</span> title</h1>
-      <p class="lead__subtitle">Subtitle</p>
+      <p class="lead__subtitle">Subtitle line</p>
+    </div>
       <ul class="lead__grid-gallery">
-        <li class="lead__grid-item"></li>
-        <li class="lead__grid-item"></li>
-        <li class="lead__grid-item"></li>
-        <li class="lead__grid-item"></li>
-        <li class="lead__grid-item">
+        <li class="lead__grid-item lead__grid-item_color_green"></li>
+        <li class="lead__grid-item lead__grid-item_color_lilac"></li>
+        <li class="lead__grid-item lead__grid-item_color_blue"></li>
+        <li class="lead__grid-item lead__grid-item_color_yellow"></li>
+        <li class="lead__grid-item lead__grid-item_color_transparent">
           <button class="button lead__button" type="button">Learn more</button>
         </li>
-        <li class="lead__grid-item"></li>
-        <li class="lead__grid-item"></li>
-        <li class="lead__grid-item"></li>
+        <li class="lead__grid-item lead__grid-item_color_pink"></li>
+        <li class="lead__grid-item lead__grid-item_color_purple"></li>
+        <li class="lead__grid-item lead__grid-item_color_orange"></li>
       </ul>
     </section>
     <section class="info content__section section">
@@ -122,7 +125,7 @@
           <h3 class="footer__column-heading">Follow us</h3>
           <p class="footer__mail">hello@fapsterapp.com</p>
         </div>
-        <nav class="footer__column">
+        <nav class="footer__column footer__column_hidden">
           <h3 class="footer__column-heading">Information</h3>
           <div class="footer__column-container">
           <ul class="info-list footer__column-list">
@@ -160,7 +163,7 @@
           </ul>
          </div>
         </nav>
-        <div class="footer__column">
+        <div class="footer__column footer__column_hidden">
           <h3 class="footer__column-heading">Keep in touch</h3>
           <form class="footer__form" name="info">
             <input class="footer__field footer__field_type_name" type="text" name="name" placeholder="Your name" required minlength="2" maxlength="40">
@@ -171,10 +174,11 @@
         </div>
         <div class="footer__column">
           <p class="footer__author"> Copyright &copy; 2021 &bull; My Company.
-            All rights reserved</p>
+            All&nbsp;rights&nbsp;reserved</p>
         </div>
     </div>
   </footer>
   </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

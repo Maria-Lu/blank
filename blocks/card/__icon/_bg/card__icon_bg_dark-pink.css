@@ -1,3 +1,4 @@
 .card__icon_bg_dark-pink {
-  background: url(../../../../images/info/icon-phone-call.svg) #E84393 no-repeat center;
+  background-image: url(../../../../images/info/icon-phone-call.svg);
+  background-color: #e84393;
 }

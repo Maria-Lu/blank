@@ -1,3 +1,4 @@
 .card__icon_bg_dark-purple {
-  background: url(../../../../images/info/icon-zap.svg) #6C5CE7 no-repeat center;
+  background-image: url(../../../../images/info/icon-zap.svg);
+  background-color: #6C5CE7;
 }

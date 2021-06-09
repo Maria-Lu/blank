@@ -1,3 +1,5 @@
 .card__icon_bg_dark-blue {
-  background: url(../../../../images/info/icon-pie-chart.svg) #0984E3 no-repeat center;
+  background-image: url(../../../../images/info/icon-pie-chart.svg);
+  background-color: #0984E3;
+  background-size: 70%;
 }

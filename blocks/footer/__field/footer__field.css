@@ -9,6 +9,7 @@
   height: 48px;
   box-sizing: border-box;
   padding: 8px 16px;
+  margin: 0 0 30px;
 }
 
 .footer__field::-webkit-input-placeholder {
@@ -28,4 +29,10 @@
 .footer__field:focus {
   background-color: rgba(253, 203, 110, .4);
   border-radius: 12px;
+}
+
+@media screen and (max-width: 590px) {
+  .footer__field {
+    width: 100%;
+  }
 }

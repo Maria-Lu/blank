@@ -1,3 +1,35 @@
 .section {
   max-width: 1170px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1220px) {
+  .section {
+    max-width: 970px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section  {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    max-width: 560px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .section {
+    max-width: 365px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section {
+    max-width: 290px;
+  }
 }

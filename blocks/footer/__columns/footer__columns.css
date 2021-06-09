@@ -5,3 +5,9 @@
   justify-content: space-between;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 590px) {
+  .footer__columns {
+    flex-direction: column;
+  }
+}

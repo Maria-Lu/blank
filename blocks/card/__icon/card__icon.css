@@ -1,6 +1,18 @@
 .card__icon {
-  width: 70px;
-  height: 70px;
+  width: 56px;
+  height: 56px;
   border-radius: 99px;
-  margin: 0 0 24px;
+  margin: 0 0 31px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 590px) {
+  .card__icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    margin: 0 0 24px;
+  }
 }

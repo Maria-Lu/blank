@@ -1,0 +1,26 @@
+.lead__grid-item_color_pink {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: start;
+  background-color: #FD79A8;
+  height: 284px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__grid-item_color_pink {
+    height: 210px;
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    .lead__grid-item_color_pink {
+      height: 158px;
+    }
+  }
+
+  @media screen and (max-width: 590px) {
+    .lead__grid-item_color_pink {
+      height: 136px;
+      width: 130px;
+    }
+  }

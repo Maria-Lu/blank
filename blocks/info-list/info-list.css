@@ -1,4 +1,8 @@
 .info-list {
   list-style: none;
+  padding: 0 0 20px;
+}
+
+.info-list:last-of-type {
   padding: 0;
 }

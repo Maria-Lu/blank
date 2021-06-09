@@ -1,0 +1,25 @@
+.lead__grid-item_color_green {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  background-color:#00B894;
+  height: 380px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .lead__grid-item_color_green {
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__grid-item_color_green {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__grid-item_color_green {
+    height: 182px;
+  }
+}

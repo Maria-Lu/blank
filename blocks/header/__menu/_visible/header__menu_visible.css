@@ -1,0 +1,9 @@
+@media screen and (max-width: 590px) {
+  .header__menu_visible {
+    height: 160px;
+    transition: height .5s ease-in-out;
+  }
+}
+
+
+

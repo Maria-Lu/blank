@@ -1,6 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/hamburger/hamburger.css);
+@import url(../blocks/hamburger/_animate/hamburger_animate.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/content/__section/content__section.css);
@@ -8,6 +11,7 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_visible/header__menu_visible.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/lead/lead.css);
@@ -16,16 +20,21 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__grid-gallery/lead__grid-gallery.css);
 @import url(../blocks/lead/__grid-item/lead__grid-item.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_transparent.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_pink.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_yellow.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_green.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_orange.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_blue.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_purple.css);
+@import url(../blocks/lead/__grid-item/_color/lead__grid-item_color_lilac.css);
 @import url(../blocks/lead/__button/lead__button.css);
-@import url(../blocks/button/button.css);
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__paragrapgh/info__paragraph.css);
 @import url(../blocks/info/__cards/info__cards.css);
 @import url(../blocks/info/__button/info__button.css);
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__item/cards__item.css);
-@import url(../blocks/card/card.css);
 @import url(../blocks/card/__icon/card__icon.css);
 @import url(../blocks/card/__icon/_bg/card__icon_bg_dark-pink.css);
 @import url(../blocks/card/__icon/_bg/card__icon_bg_dark-blue.css);
@@ -35,6 +44,18 @@
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-container/footer__column-container.css);
+@import url(../blocks/footer/__column-list/footer__column-list.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__field/footer__field.css);
+@import url(../blocks/footer/__field/_type/footer__field_type_name.css);
+@import url(../blocks/footer/__field/_type/footer__field_type_email.css);
+@import url(../blocks/footer/__field/_type/footer__field_type_message.css);
+@import url(../blocks/footer/__button-submit/footer__button-submit.css );
 @import url(../blocks/social-list/social-list.css);
 @import url(../blocks/social-list/__item/social-list__item.css);
 @import url(../blocks/social-list/__link/social-list__link.css);
@@ -45,17 +66,6 @@
 @import url(../blocks/info-list/info-list.css);
 @import url(../blocks/info-list/__item/info-list__item.css);
 @import url(../blocks/info-list/__link/info-list__link.css);
-@import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column-container/footer__column-container.css);
-@import url(../blocks/footer/__column-list/footer__column-list.css);
-@import url(../blocks/footer/__mail/footer__mail.css);
-@import url(../blocks/footer/__form/footer__form.css);
-@import url(../blocks/footer/__field/footer__field.css);
-@import url(../blocks/footer/__field/_type/footer__field_type_name.css);
-@import url(../blocks/footer/__field/_type/footer__field_type_email.css);
-@import url(../blocks/footer/__field/_type/footer__field_type_message.css);
-@import url(../blocks/footer/__button-submit/footer__button-submit.css );
 
 
 

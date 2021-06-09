@@ -1,0 +1,40 @@
+.hamburger {
+  position: relative;
+  width: 18px;
+  height: 2px;
+  background: #5c5c5c;
+  transition: all 0s .3s;
+  display: none;
+}
+
+.hamburger::before,
+.hamburger::after {
+  width: 18px;
+  height: 2px;
+}
+
+.hamburger::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  background: #5c5c5c;
+  transition: bottom .5s .3s cubic-bezier(.25, 1, .5, 1),
+    transform .5s cubic-bezier(.25, 1, .5, 1);
+}
+
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  background: #5c5c5c;
+  transition: top .5s .3s cubic-bezier(.25, 1, .5, 1),
+    transform .5s cubic-bezier(.25, 1, .5, 1);
+}
+
+@media screen and (max-width: 590px) {
+  .hamburger {
+    display: block;
+  }
+}

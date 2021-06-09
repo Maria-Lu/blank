@@ -1,4 +1,57 @@
 .footer {
-  padding: 80px 0 160px 0;
-  background: url('../../images/footer/Wave.svg') no-repeat bottom/100%;
+  padding: 80px 0 180px 0;
+  background: url('../../images/footer/footer-wave.svg') no-repeat bottom/100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    padding: 80px 0 120px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 80px 0 60px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .footer {
+    padding: 80px 0 100px;
+    background: url(../../images/footer/footer-dots.svg) no-repeat left 65px
+      bottom;
+  }
+
+  .footer::before {
+    content: '';
+    width: 300px;
+    height: 210px;
+    position: absolute;
+    bottom: -170px;
+    left: -20px;
+    background: #fff3dc;
+    border-radius: 46px;
+    transform: rotate(47deg);
+    z-index: -1;
+  }
+
+  .footer::after {
+    content: '';
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    left: -70px;
+    background: #6c5ce7;
+    opacity: .24;
+    transform: rotate(47deg);
+  }
 }

@@ -1,5 +1,5 @@
 .header {
   background-color: white;
-  box-shadow: 0 2px 4px rgba(38, 50, 56, 0.16),
-              0 4px 8px rgba(38, 50, 56, 0.08);
+  box-shadow: 0 2px 4px rgba(38, 50, 56, .16),
+              0 4px 8px rgba(38, 50, 56, .08);
 }

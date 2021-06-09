@@ -3,7 +3,7 @@
   color: #6C5CE7;
   text-decoration: none;
   text-align: center;
-  transition: opacity .5s ease-in;
+  transition: font-weight .3s ease-in;
 }
 
 .header__link::before {
@@ -28,4 +28,10 @@
   font-weight: bold;
   letter-spacing: 0.2px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 590px) {
+  .header__link {
+    text-align: left;
+  }
 }

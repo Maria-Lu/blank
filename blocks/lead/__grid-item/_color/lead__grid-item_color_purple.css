@@ -1,0 +1,27 @@
+.lead__grid-item_color_purple {
+  grid-column: 3 / 5;
+  grid-row: 2 / 4;
+  background-color: #6C5CE7;
+  height: 356px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__grid-item_color_purple {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__grid-item_color_purple {
+    height: 212px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__grid-item_color_purple {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    height: 164px;
+    width: 170px;
+  }
+}

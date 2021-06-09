@@ -6,3 +6,9 @@
 .footer__column:last-child {
   margin: 0;
 }
+
+@media screen and (max-width: 590px) {
+  .footer__column {
+    width: 100%;
+  }
+}

@@ -4,6 +4,33 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 270px) repeat(3, 170px);
-  grid-template-rows: 88px 10px 222px 172px 20px 32px 42px;
+  grid-template-rows: repeat(3, auto);
   gap: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__grid-gallery {
+    grid-template-columns: repeat(2, 270px) repeat(2, 170px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__grid-gallery {
+    grid-template-columns: repeat(2, 200px) repeat(2, 130px);
+    gap: 20px
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__grid-gallery {
+    grid-template-columns: repeat(2, 150px) repeat(2, 100px);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__grid-gallery {
+    grid-template-columns: repeat(2, 130px) repeat(1, 85px);
+    gap: 10px;
+  }
 }
